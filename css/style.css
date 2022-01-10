@@ -1,0 +1,69 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	align-items: center;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.board {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	background-color: #1D61F0;
+}
+
+.cell {
+	height: 92px;
+	width: 92px;
+	cursor: pointer;
+	margin: 4px;
+}
+
+.empty {
+	background-image: url(../images/empty.jpg);
+}
+
+.red {
+	background-image: url(../images/red.jpg);
+}
+
+.yellow {
+	background-image: url(../images/yellow.jpg);
+}
+
+.redblink {
+	background-image: url(../images/red.jpg);
+}
+
+.yellowblink {
+	background-image: url(../images/yellow.jpg);
+}
+
+.redtint {
+	background-image: url(../images/redtint.jpg);
+}
+
+.yellowtint {
+	background-image: url(../images/yellowtint.jpg);
+}
+
+.redwin {
+	background-image: url(../images/redwin.jpg);
+}
+
+.yellowwin {
+	background-image: url(../images/yellowwin.jpg);
+}
