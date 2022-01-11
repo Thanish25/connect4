@@ -1,14 +1,22 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+/* html {
+	background-color: #4B87FA;
+} */
+
+h2 {
 	text-align: center;
+	color: white;
 }
 
 body {
 	align-items: center;
-	background: white;
+	background: #1b5dc0;
 	display: flex;
 	flex-direction: column;
 	font-family: sans-serif;
 	padding: 10px;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .board {
@@ -17,6 +25,24 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: column;
+}
+
+.title-container {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	align-items: center;
+}
+
+button {
+	height: 30px;
+	width: 80px;
+	border-radius: 10px;
+	background-color: #1D61F0;
+	border: solid 3px #4B87FA;
+	color: white;
+	font-size: small;
+	cursor: pointer;
 }
 
 .row {
@@ -30,6 +56,38 @@ body {
 	width: 92px;
 	cursor: pointer;
 	margin: 4px;
+}
+
+.top-edge {
+	width: 720px;
+	height: 20px;
+	background-color: #1D61F0;
+	border-radius: 5px 5px 0px 0px;
+	border-top: solid 6px #4B87FA;
+	border-left: solid 6px #4B87FA;
+	border-right: solid 6px #4B87FA;
+}
+
+.bottom-edge {
+	width: 720px;
+	height: 10px;
+	background-color: #1D61F0;
+	border-radius: 0px 0px 5px 5px;
+	border-bottom: solid 6px #4B87FA;
+	border-left: solid 6px #4B87FA;
+	border-right: solid 6px #4B87FA;
+}
+
+.left-edge {
+	width: 10px;
+	height: 100px;
+	border-left: solid 6px #4B87FA;
+}
+
+.right-edge {
+	width: 10px;
+	height: 100px;
+	border-right: solid 6px #4B87FA;
 }
 
 .empty {
